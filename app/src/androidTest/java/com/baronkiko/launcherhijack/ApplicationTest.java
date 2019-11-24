@@ -1,4 +1,4 @@
-package com.baronkiko.launcherhijack;
+package com.baronkiko.l4unch3rh1j4ck;
 
 
 import android.content.Context;
@@ -22,6 +22,6 @@ public class ApplicationTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.baronkiko.launcherhijack", appContext.getPackageName());
+        assertEquals("com.baronkiko.l4unch3rh1j4ck", appContext.getPackageName());
     }
 }

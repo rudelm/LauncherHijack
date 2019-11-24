@@ -1,4 +1,4 @@
-package com.baronkiko.launcherhijack;
+package com.baronkiko.l4unch3rh1j4ck;
 
 import android.app.UiModeManager;
 import android.content.Context;
@@ -29,7 +29,7 @@ public class SettingsMan
         public SettingStore()
         {
             c = MainActivity.GetContext();
-            settings = c.getSharedPreferences("LauncherHijack", MODE_PRIVATE);
+            settings = c.getSharedPreferences("l4unch3rh1j4ck", MODE_PRIVATE);
 
             RunningOnTV = c.getPackageManager().hasSystemFeature(PackageManager.FEATURE_LEANBACK);
 

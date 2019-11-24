@@ -1,4 +1,4 @@
-package com.baronkiko.launcherhijack;
+package com.baronkiko.l4unch3rh1j4ck;
 
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class AppInfoAdapter extends BaseAdapter {
 		// inflate new layout if null
 		if(v == null) {
 			LayoutInflater inflater = LayoutInflater.from(mContext);
-			v = inflater.inflate(com.baronkiko.launcherhijack.R.layout.layout_appinfo, null);
+			v = inflater.inflate(com.baronkiko.l4unch3rh1j4ck.R.layout.layout_appinfo, null);
 		}
 		
 		// load controls from layout resources

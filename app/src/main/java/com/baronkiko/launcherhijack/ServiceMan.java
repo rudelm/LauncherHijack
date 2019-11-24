@@ -1,4 +1,4 @@
-package com.baronkiko.launcherhijack;
+package com.baronkiko.l4unch3rh1j4ck;
 
 import android.app.ActivityManager;
 import android.app.PendingIntent;

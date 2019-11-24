@@ -4,7 +4,7 @@
 
 
 
-package com.baronkiko.launcherhijack;
+package com.baronkiko.l4unch3rh1j4ck;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

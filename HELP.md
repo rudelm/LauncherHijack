@@ -1,6 +1,6 @@
 # Fire Tablets
 **Installation**  
-1. Natigate to this GitHub's downloads page (https://github.com/BaronKiko/LauncherHijack/releases) on your tablet and download the latest APK
+1. Natigate to this GitHub's downloads page (https://github.com/BaronKiko/l4unch3rh1j4ck/releases) on your tablet and download the latest APK
 2. Open your newly downloaded file and install like any other Android application
 3. Open settings and navigate to "Accessibility -> To detect home button press" and press enable
 4. If Launcher Hijack didn't open, find and open it
@@ -9,7 +9,7 @@
 7. Congratulation, if all is working correctly your home button should now open your chosen launcher
 
 **Updates (Specifically 5.6.2.0)**  
-Please disable LauncherHijack in accessibility settings during Fire OS updates. LauncherHijack causes issues during update 5.6.2.0, you wont brick your device or anything with it left enabled but you wont be able to complete update 5.6.2.0 until disabled. There is nothing I can do without degrading the application during regular use. If you somehow end up mid update with LauncherHijack enabled the easiest solution, assuming you can't get to settings, is to uninstall LauncherHijack through ADB (plenty of guides online) and reinstall it after you complete the update.
+Please disable l4unch3rh1j4ck in accessibility settings during Fire OS updates. l4unch3rh1j4ck causes issues during update 5.6.2.0, you wont brick your device or anything with it left enabled but you wont be able to complete update 5.6.2.0 until disabled. There is nothing I can do without degrading the application during regular use. If you somehow end up mid update with l4unch3rh1j4ck enabled the easiest solution, assuming you can't get to settings, is to uninstall l4unch3rh1j4ck through ADB (plenty of guides online) and reinstall it after you complete the update.
 
 **Google Now Launcher**  
 The Google Now launcher is the only known launcher that supports widgets out of the box. It can however be a pain to set up so try following these instructions:
@@ -57,13 +57,13 @@ If you are having issues then there are some common issues you can check here:
 
 # Fire TV's
 **Installation**  
-1. Natigate to this GitHub's downloads page (https://github.com/BaronKiko/LauncherHijack/releases) on your desktop/laptop and download the latest APK
+1. Natigate to this GitHub's downloads page (https://github.com/BaronKiko/l4unch3rh1j4ck/releases) on your desktop/laptop and download the latest APK
 2. Install ADB on your desktop/laptop (Google will help you) and ensure a connection to your Fire TV.
 3. Install Launcher Hijack with this command  
 `adb install <path to downloaded APK>`
 4. Ensure you have some Launchers installed
 5. Enable the accessibility service using these commands:  
-`adb shell settings put secure enabled_accessibility_services com.baronkiko.launcherhijack/com.baronkiko.launcherhijack.AccServ`  
+`adb shell settings put secure enabled_accessibility_services com.baronkiko.l4unch3rh1j4ck/com.baronkiko.l4unch3rh1j4ck.AccServ`
 `adb shell settings put secure accessibility_enabled 1`
 6. If Launcher Hijack didn't open, find and open it
 7. Select your desired Launcher from the list provided
@@ -76,7 +76,7 @@ Unfortunatly for FireTV devices a comprimise had to be made. To access the long 
 **Troubleshooting**  
 If you are having issues then there are some common issues you can check here:
 - Ensure you are using an Amazon TV device running Fire OS, compatible with all versions as of release (6.3 = latest)
-- Ensure you have enabled the accessibility service with the command: `adb shell settings put secure enabled_accessibility_services com.baronkiko.launcherhijack/com.baronkiko.launcherhijack.AccServ`
+- Ensure you have enabled the accessibility service with the command: `adb shell settings put secure enabled_accessibility_services com.baronkiko.l4unch3rh1j4ck/com.baronkiko.l4unch3rh1j4ck.AccServ`
 - Ensure you can open your launcher directly i.e. Using any launcher, other than your chosen launcher, open you chosen launcher like any other app, this should open your chosen launcher
 - Ensure you have selected your chosen launcher in Launcher Hijack
 - Reboot your device after following all previous steps
